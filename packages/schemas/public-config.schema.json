@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CitadelPublicConfig",
+  "type": "object",
+  "required": ["app_name", "domain", "retrieval", "generation", "governance"],
+  "properties": {
+    "app_name": { "type": "string" },
+    "domain": { "type": "string" },
+    "retrieval": { "type": "object" },
+    "generation": { "type": "object" },
+    "governance": { "type": "object" }
+  }
+}
+
