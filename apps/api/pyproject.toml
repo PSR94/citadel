@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "citadel-api"
+version = "0.1.0"
+description = "CITADEL Enterprise Retrieval Intelligence Platform API"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115.0,<1.0.0",
+  "uvicorn[standard]>=0.35.0",
+  "pydantic>=2.8.0,<3.0.0",
+  "pydantic-settings>=2.4.0",
+  "sqlalchemy>=2.0.36",
+  "alembic>=1.14.0",
+  "psycopg[binary]>=3.2.0",
+  "httpx>=0.28.0",
+  "python-multipart>=0.0.9",
+  "redis>=5.2.0",
+  "qdrant-client>=1.12.0",
+  "opensearch-py>=2.7.0",
+  "neo4j>=5.28.0",
+  "numpy>=2.1.0",
+  "pandas>=2.2.0",
+  "scikit-learn>=1.6.0",
+  "networkx>=3.4.0",
+  "pyyaml>=6.0.2",
+  "pypdf>=5.1.0",
+  "markdown-it-py>=3.0.0",
+  "structlog>=24.4.0"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3.0",
+  "pytest-cov>=6.0.0",
+  "ruff>=0.8.0"
+]
+models = [
+  "sentence-transformers>=3.3.0",
+  "transformers>=4.47.0",
+  "torch>=2.5.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
