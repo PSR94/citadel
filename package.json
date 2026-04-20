@@ -1,0 +1,17 @@
+{
+  "name": "citadel",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/web",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev --workspace @citadel/web",
+    "build:web": "npm run build --workspace @citadel/web",
+    "lint:web": "npm run lint --workspace @citadel/web",
+    "test:web": "npm run test --workspace @citadel/web",
+    "format": "npm run format --workspace @citadel/web"
+  }
+}
+

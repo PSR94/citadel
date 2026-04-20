@@ -1,0 +1,26 @@
+[
+  {
+    "id": "gold-001",
+    "query": "What is the incident escalation policy for severity 1 outages?"
+  },
+  {
+    "id": "gold-002",
+    "query": "Which team owns the deployment rollback runbook?"
+  },
+  {
+    "id": "gold-003",
+    "query": "How does contractor onboarding differ from employee onboarding?"
+  },
+  {
+    "id": "gold-004",
+    "query": "Which ADR replaced the legacy auth proxy?"
+  },
+  {
+    "id": "gold-005",
+    "query": "What documents mention data retention exceptions?"
+  },
+  {
+    "id": "gold-006",
+    "query": "Which policy governs privileged production access?"
+  }
+]

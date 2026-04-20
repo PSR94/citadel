@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ret-001",
+    "query": "What is the incident escalation policy for severity 1 outages?",
+    "expected_document_ids": ["DOC-PLAT-001", "DOC-SEC-002"]
+  },
+  {
+    "id": "ret-002",
+    "query": "Which team owns the deployment rollback runbook?",
+    "expected_document_ids": ["DOC-PLAT-002"]
+  },
+  {
+    "id": "ret-003",
+    "query": "Which policy governs privileged production access?",
+    "expected_document_ids": ["DOC-SEC-001"]
+  },
+  {
+    "id": "ret-004",
+    "query": "Which ADR replaced the legacy auth proxy?",
+    "expected_document_ids": ["DOC-ADR-006", "DOC-ADR-001"]
+  }
+]
+

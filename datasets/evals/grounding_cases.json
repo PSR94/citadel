@@ -1,0 +1,15 @@
+[
+  {
+    "id": "grd-001",
+    "query": "How does contractor onboarding differ from employee onboarding?",
+    "must_cite": ["DOC-ONB-001", "DOC-ONB-002"],
+    "must_not_claim": ["equity grant eligibility", "corporate card default approval"]
+  },
+  {
+    "id": "grd-002",
+    "query": "What documents mention data retention exceptions?",
+    "must_cite": ["DOC-PRIV-002", "DOC-POL-001", "DOC-SEC-001"],
+    "must_not_claim": ["exceptions are permanent", "exceptions are self-approved"]
+  }
+]
+

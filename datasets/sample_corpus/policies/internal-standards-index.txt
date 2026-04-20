@@ -1,0 +1,11 @@
+DOC-ID: DOC-POL-002
+TITLE: Internal Standards Index
+OWNER_TEAM: Governance Engineering
+DOMAIN: policies
+REFERENCES: DOC-POL-001, DOC-PRIV-001, DOC-SEC-001
+
+The internal standards index links the main operational standards used by platform teams.
+
+- privileged production access is governed by the Privileged Production Access Policy
+- retention periods and exception handling are governed by the Data Retention Standard
+- privacy handling responsibilities are covered by the Privacy Data Handling Standard
