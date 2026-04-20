@@ -246,10 +246,10 @@ flowchart LR
   BOOST --> ANSWER["Cited answer points to ADR-006"]
 
   classDef query fill:#172554,stroke:#93c5fd,color:#eff6ff,stroke-width:2px;
-  classDef graph fill:#0f3b45,stroke:#5eead4,color:#ecfeff,stroke-width:2px;
+  classDef expansion fill:#0f3b45,stroke:#5eead4,color:#ecfeff,stroke-width:2px;
   classDef result fill:#3a2814,stroke:#fbbf24,color:#fffbeb,stroke-width:2px;
   class ASK,HIT query;
-  class EDGE,ADR6,TEAM,POL,BOOST graph;
+  class EDGE,ADR6,TEAM,POL,BOOST expansion;
   class ANSWER result;
 ```
 
