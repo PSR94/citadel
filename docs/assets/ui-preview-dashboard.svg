@@ -1,0 +1,16 @@
+<svg width="1280" height="780" viewBox="0 0 1280 780" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="780" rx="32" fill="#050A14"/>
+  <rect x="28" y="28" width="1224" height="724" rx="26" fill="#09121F"/>
+  <rect x="54" y="54" width="1172" height="94" rx="28" fill="#0D1726"/>
+  <rect x="54" y="172" width="280" height="180" rx="28" fill="#0B1522"/>
+  <rect x="356" y="172" width="280" height="180" rx="28" fill="#0B1522"/>
+  <rect x="658" y="172" width="280" height="180" rx="28" fill="#0B1522"/>
+  <rect x="960" y="172" width="266" height="180" rx="28" fill="#0B1522"/>
+  <rect x="54" y="378" width="690" height="326" rx="28" fill="#0B1522"/>
+  <rect x="768" y="378" width="458" height="326" rx="28" fill="#0B1522"/>
+  <path d="M106 610C184 520 255 592 328 498C403 402 465 542 548 446C579 410 612 414 690 458" stroke="#7AE7FF" stroke-width="6" stroke-linecap="round"/>
+  <text x="88" y="112" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="700">Overview</text>
+  <text x="88" y="410" fill="white" font-family="Arial, sans-serif" font-size="22" font-weight="700">Eval trend</text>
+  <text x="802" y="410" fill="white" font-family="Arial, sans-serif" font-size="22" font-weight="700">Provider posture</text>
+</svg>
+

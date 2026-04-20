@@ -1,0 +1,17 @@
+<svg width="1280" height="780" viewBox="0 0 1280 780" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="780" rx="32" fill="#050A14"/>
+  <rect x="28" y="28" width="1224" height="724" rx="26" fill="#09121F"/>
+  <rect x="54" y="54" width="1172" height="76" rx="24" fill="#0D1726"/>
+  <rect x="54" y="154" width="360" height="550" rx="28" fill="#0B1522"/>
+  <rect x="438" y="154" width="788" height="550" rx="28" fill="#0B1522"/>
+  <rect x="478" y="210" width="330" height="116" rx="24" fill="#111E31"/>
+  <rect x="834" y="210" width="330" height="116" rx="24" fill="#111E31"/>
+  <rect x="478" y="350" width="330" height="116" rx="24" fill="#111E31"/>
+  <rect x="834" y="350" width="330" height="116" rx="24" fill="#111E31"/>
+  <rect x="478" y="490" width="330" height="116" rx="24" fill="#111E31"/>
+  <rect x="834" y="490" width="330" height="116" rx="24" fill="#111E31"/>
+  <text x="88" y="104" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="700">Status</text>
+  <text x="88" y="210" fill="#C7D8E8" font-family="Arial, sans-serif" font-size="18">Service readiness</text>
+  <text x="478" y="184" fill="white" font-family="Arial, sans-serif" font-size="22" font-weight="700">Dependencies</text>
+</svg>
+

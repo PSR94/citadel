@@ -1,0 +1,33 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="520" rx="40" fill="#040B16"/>
+  <rect x="24" y="24" width="1552" height="472" rx="28" fill="url(#bg)"/>
+  <path d="M0 430C220 360 318 230 552 250C781 269 842 411 1071 420C1268 428 1373 302 1600 220V520H0V430Z" fill="url(#wave)" opacity="0.65"/>
+  <circle cx="1248" cy="150" r="160" fill="url(#orb)" opacity="0.25"/>
+  <circle cx="1350" cy="132" r="8" fill="#9CF1FF"/>
+  <circle cx="1394" cy="168" r="8" fill="#9CF1FF"/>
+  <circle cx="1316" cy="214" r="8" fill="#9CF1FF"/>
+  <path d="M1350 132L1394 168L1316 214L1264 180L1350 132Z" stroke="#8EEAFF" stroke-width="1.5" opacity="0.8"/>
+  <rect x="88" y="88" width="160" height="36" rx="18" fill="#10384A"/>
+  <text x="110" y="111" fill="#D7F6FF" font-family="Arial, sans-serif" font-size="16" letter-spacing="4">CITADEL</text>
+  <text x="88" y="210" fill="white" font-family="Arial, sans-serif" font-size="72" font-weight="700">Enterprise Retrieval</text>
+  <text x="88" y="294" fill="white" font-family="Arial, sans-serif" font-size="72" font-weight="700">Intelligence Platform</text>
+  <text x="88" y="350" fill="#A9C0D3" font-family="Arial, sans-serif" font-size="24">Hybrid retrieval, graph-aware expansion, reranking, strict citations, eval gates, and operator-grade visibility.</text>
+  <rect x="88" y="396" width="310" height="54" rx="27" fill="#7AE7FF"/>
+  <text x="128" y="430" fill="#05111D" font-family="Arial, sans-serif" font-size="20" font-weight="700">Ask My Docs, but production-minded</text>
+  <defs>
+    <linearGradient id="bg" x1="160" y1="46" x2="1444" y2="492" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1930"/>
+      <stop offset="0.54" stop-color="#091423"/>
+      <stop offset="1" stop-color="#071F30"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="827" y1="200" x2="827" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C8DAF"/>
+      <stop offset="1" stop-color="#042133"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1248 150) rotate(90) scale(160)">
+      <stop stop-color="#87EEFF"/>
+      <stop offset="1" stop-color="#87EEFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
+
