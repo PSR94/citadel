@@ -1,16 +1,65 @@
 <svg width="1280" height="780" viewBox="0 0 1280 780" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1280" height="780" rx="32" fill="#050A14"/>
-  <rect x="28" y="28" width="1224" height="724" rx="26" fill="#09121F"/>
-  <rect x="54" y="54" width="1172" height="94" rx="28" fill="#0D1726"/>
-  <rect x="54" y="172" width="280" height="180" rx="28" fill="#0B1522"/>
-  <rect x="356" y="172" width="280" height="180" rx="28" fill="#0B1522"/>
-  <rect x="658" y="172" width="280" height="180" rx="28" fill="#0B1522"/>
-  <rect x="960" y="172" width="266" height="180" rx="28" fill="#0B1522"/>
-  <rect x="54" y="378" width="690" height="326" rx="28" fill="#0B1522"/>
-  <rect x="768" y="378" width="458" height="326" rx="28" fill="#0B1522"/>
-  <path d="M106 610C184 520 255 592 328 498C403 402 465 542 548 446C579 410 612 414 690 458" stroke="#7AE7FF" stroke-width="6" stroke-linecap="round"/>
-  <text x="88" y="112" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="700">Overview</text>
-  <text x="88" y="410" fill="white" font-family="Arial, sans-serif" font-size="22" font-weight="700">Eval trend</text>
-  <text x="802" y="410" fill="white" font-family="Arial, sans-serif" font-size="22" font-weight="700">Provider posture</text>
-</svg>
+  <defs>
+    <linearGradient id="dashBg" x1="56" y1="48" x2="1218" y2="732" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1624"/>
+      <stop offset="1" stop-color="#09111B"/>
+    </linearGradient>
+  </defs>
 
+  <rect width="1280" height="780" rx="34" fill="#050A14"/>
+  <rect x="24" y="24" width="1232" height="732" rx="28" fill="url(#dashBg)" stroke="#173446" stroke-width="2"/>
+
+  <rect x="52" y="52" width="1176" height="92" rx="26" fill="#0D1B29"/>
+  <rect x="52" y="168" width="266" height="168" rx="26" fill="#0C1724"/>
+  <rect x="338" y="168" width="266" height="168" rx="26" fill="#0C1724"/>
+  <rect x="624" y="168" width="266" height="168" rx="26" fill="#0C1724"/>
+  <rect x="910" y="168" width="318" height="168" rx="26" fill="#0C1724"/>
+  <rect x="52" y="360" width="718" height="344" rx="28" fill="#0C1724"/>
+  <rect x="794" y="360" width="434" height="344" rx="28" fill="#0C1724"/>
+
+  <text x="84" y="98" fill="#F8FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">Operational overview</text>
+  <text x="84" y="124" fill="#8EA8BD" font-family="Segoe UI, Arial, sans-serif" font-size="14">Eval posture, provider availability, and retrieval quality in one shell.</text>
+
+  <text x="84" y="212" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="15">Recall@10</text>
+  <text x="84" y="266" fill="#F8FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700">0.92</text>
+  <rect x="84" y="286" width="172" height="12" rx="6" fill="#153548"/>
+  <rect x="84" y="286" width="146" height="12" rx="6" fill="#5EEAD4"/>
+
+  <text x="370" y="212" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="15">Citation coverage</text>
+  <text x="370" y="266" fill="#F8FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700">1.00</text>
+  <rect x="370" y="286" width="172" height="12" rx="6" fill="#153548"/>
+  <rect x="370" y="286" width="172" height="12" rx="6" fill="#7DD3FC"/>
+
+  <text x="656" y="212" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="15">Unsupported claim rate</text>
+  <text x="656" y="266" fill="#F8FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700">0.00</text>
+  <rect x="656" y="286" width="172" height="12" rx="6" fill="#153548"/>
+  <rect x="656" y="286" width="36" height="12" rx="6" fill="#F59E0B"/>
+
+  <text x="942" y="212" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="15">Provider posture</text>
+  <rect x="942" y="238" width="110" height="28" rx="14" fill="#123726"/>
+  <rect x="1064" y="238" width="92" height="28" rx="14" fill="#123447"/>
+  <text x="968" y="256" fill="#DCFCE7" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">API healthy</text>
+  <text x="1085" y="256" fill="#D7F4FF" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">graph ready</text>
+  <rect x="942" y="282" width="240" height="10" rx="5" fill="#153548"/>
+  <rect x="942" y="282" width="176" height="10" rx="5" fill="#5EEAD4"/>
+
+  <text x="84" y="404" fill="#F8FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Eval trend</text>
+  <path d="M104 636C176 574 232 586 300 512C354 452 428 548 502 476C560 420 618 442 698 420C714 416 724 408 738 394" stroke="#7DD3FC" stroke-width="6" stroke-linecap="round"/>
+  <path d="M104 654C182 628 248 640 314 614C380 588 442 610 510 572C568 540 640 538 734 508" stroke="#5EEAD4" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+  <line x1="104" y1="664" x2="738" y2="664" stroke="#1C3345"/>
+  <line x1="104" y1="600" x2="738" y2="600" stroke="#102132"/>
+  <line x1="104" y1="536" x2="738" y2="536" stroke="#102132"/>
+  <line x1="104" y1="472" x2="738" y2="472" stroke="#102132"/>
+  <text x="104" y="694" fill="#89A8BF" font-family="Segoe UI, Arial, sans-serif" font-size="12">recent eval runs</text>
+
+  <text x="826" y="404" fill="#F8FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Recent signals</text>
+  <rect x="826" y="430" width="370" height="62" rx="20" fill="#112133"/>
+  <rect x="826" y="510" width="370" height="62" rx="20" fill="#112133"/>
+  <rect x="826" y="590" width="370" height="62" rx="20" fill="#112133"/>
+  <circle cx="854" cy="461" r="8" fill="#5EEAD4"/>
+  <circle cx="854" cy="541" r="8" fill="#7DD3FC"/>
+  <circle cx="854" cy="621" r="8" fill="#F59E0B"/>
+  <text x="876" y="466" fill="#DCE9F7" font-family="Segoe UI, Arial, sans-serif" font-size="14">CI gate passed with retrieval and grounding thresholds intact</text>
+  <text x="876" y="546" fill="#DCE9F7" font-family="Segoe UI, Arial, sans-serif" font-size="14">Dependency health endpoint reports graph and reranker available</text>
+  <text x="876" y="626" fill="#DCE9F7" font-family="Segoe UI, Arial, sans-serif" font-size="14">Operator dashboard surfaced no unsupported claim regressions</text>
+</svg>

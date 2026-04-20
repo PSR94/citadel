@@ -1,15 +1,50 @@
 <svg width="1280" height="780" viewBox="0 0 1280 780" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1280" height="780" rx="32" fill="#050A14"/>
-  <rect x="28" y="28" width="1224" height="724" rx="26" fill="#09121F"/>
-  <rect x="54" y="54" width="1172" height="76" rx="24" fill="#0D1726"/>
-  <rect x="54" y="154" width="420" height="550" rx="28" fill="#0B1522"/>
-  <rect x="500" y="154" width="726" height="550" rx="28" fill="#0B1522"/>
-  <rect x="94" y="248" width="224" height="48" rx="24" fill="#7AE7FF"/>
-  <rect x="540" y="232" width="646" height="88" rx="24" fill="#111E31"/>
-  <rect x="540" y="344" width="646" height="88" rx="24" fill="#111E31"/>
-  <rect x="540" y="456" width="646" height="88" rx="24" fill="#111E31"/>
-  <text x="88" y="104" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="700">Ingestion</text>
-  <text x="94" y="220" fill="#C7D8E8" font-family="Arial, sans-serif" font-size="18">Rebuild indexes</text>
-  <text x="540" y="204" fill="white" font-family="Arial, sans-serif" font-size="22" font-weight="700">Recent runs</text>
-</svg>
+  <defs>
+    <linearGradient id="ingestBg" x1="56" y1="48" x2="1218" y2="732" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1624"/>
+      <stop offset="1" stop-color="#09111B"/>
+    </linearGradient>
+  </defs>
 
+  <rect width="1280" height="780" rx="34" fill="#050A14"/>
+  <rect x="24" y="24" width="1232" height="732" rx="28" fill="url(#ingestBg)" stroke="#173446" stroke-width="2"/>
+
+  <rect x="52" y="52" width="1176" height="88" rx="24" fill="#0D1B29"/>
+  <rect x="52" y="164" width="420" height="540" rx="28" fill="#0C1724"/>
+  <rect x="496" y="164" width="732" height="540" rx="28" fill="#0C1724"/>
+
+  <text x="84" y="98" fill="#F8FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">Ingestion console</text>
+  <text x="84" y="122" fill="#8EA8BD" font-family="Segoe UI, Arial, sans-serif" font-size="14">Seed, upload, reindex, and inspect indexing history without leaving the product shell.</text>
+
+  <text x="86" y="210" fill="#F8FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Source intake</text>
+  <rect x="86" y="236" width="352" height="184" rx="24" fill="#112133"/>
+  <rect x="110" y="262" width="138" height="40" rx="20" fill="#7DD3FC"/>
+  <text x="141" y="288" fill="#07111D" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Upload docs</text>
+  <text x="110" y="332" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Supported inputs</text>
+  <text x="110" y="358" fill="#8DA9BF" font-family="Segoe UI, Arial, sans-serif" font-size="13">markdown, txt, json, and pdf parsing path</text>
+  <text x="110" y="388" fill="#8DA9BF" font-family="Segoe UI, Arial, sans-serif" font-size="13">dedupe via content hash and version metadata</text>
+
+  <rect x="86" y="444" width="352" height="116" rx="24" fill="#0F1C2A"/>
+  <text x="110" y="480" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Index refresh</text>
+  <text x="110" y="508" fill="#8DA9BF" font-family="Segoe UI, Arial, sans-serif" font-size="13">Rebuild OpenSearch, vector, graph, and local fallback indexes.</text>
+  <rect x="110" y="522" width="168" height="40" rx="20" fill="#123447"/>
+  <text x="143" y="548" fill="#D7F4FF" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Reindex corpus</text>
+
+  <text x="530" y="210" fill="#F8FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Recent runs</text>
+  <rect x="530" y="236" width="664" height="90" rx="24" fill="#112133"/>
+  <rect x="530" y="344" width="664" height="90" rx="24" fill="#112133"/>
+  <rect x="530" y="452" width="664" height="90" rx="24" fill="#112133"/>
+  <rect x="530" y="560" width="664" height="90" rx="24" fill="#112133"/>
+  <circle cx="562" cy="282" r="8" fill="#5EEAD4"/>
+  <circle cx="562" cy="390" r="8" fill="#7DD3FC"/>
+  <circle cx="562" cy="498" r="8" fill="#F59E0B"/>
+  <circle cx="562" cy="606" r="8" fill="#5EEAD4"/>
+  <text x="588" y="274" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Seed corpus sync completed</text>
+  <text x="588" y="296" fill="#8DA9BF" font-family="Segoe UI, Arial, sans-serif" font-size="13">22 documents · 106 chunks · graph nodes refreshed</text>
+  <text x="588" y="382" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Upload parsed with metadata extraction</text>
+  <text x="588" y="404" fill="#8DA9BF" font-family="Segoe UI, Arial, sans-serif" font-size="13">owners, policies, and references detected before indexing</text>
+  <text x="588" y="490" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Retry run waiting on optional dependency</text>
+  <text x="588" y="512" fill="#8DA9BF" font-family="Segoe UI, Arial, sans-serif" font-size="13">local fallback remained available during degraded service mode</text>
+  <text x="588" y="598" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Reindex restored provider health indicators</text>
+  <text x="588" y="620" fill="#8DA9BF" font-family="Segoe UI, Arial, sans-serif" font-size="13">operator trace shows end-to-end indexing completion</text>
+</svg>

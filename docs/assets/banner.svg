@@ -1,33 +1,98 @@
-<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1600" height="520" rx="40" fill="#040B16"/>
-  <rect x="24" y="24" width="1552" height="472" rx="28" fill="url(#bg)"/>
-  <path d="M0 430C220 360 318 230 552 250C781 269 842 411 1071 420C1268 428 1373 302 1600 220V520H0V430Z" fill="url(#wave)" opacity="0.65"/>
-  <circle cx="1248" cy="150" r="160" fill="url(#orb)" opacity="0.25"/>
-  <circle cx="1350" cy="132" r="8" fill="#9CF1FF"/>
-  <circle cx="1394" cy="168" r="8" fill="#9CF1FF"/>
-  <circle cx="1316" cy="214" r="8" fill="#9CF1FF"/>
-  <path d="M1350 132L1394 168L1316 214L1264 180L1350 132Z" stroke="#8EEAFF" stroke-width="1.5" opacity="0.8"/>
-  <rect x="88" y="88" width="160" height="36" rx="18" fill="#10384A"/>
-  <text x="110" y="111" fill="#D7F6FF" font-family="Arial, sans-serif" font-size="16" letter-spacing="4">CITADEL</text>
-  <text x="88" y="210" fill="white" font-family="Arial, sans-serif" font-size="72" font-weight="700">Enterprise Retrieval</text>
-  <text x="88" y="294" fill="white" font-family="Arial, sans-serif" font-size="72" font-weight="700">Intelligence Platform</text>
-  <text x="88" y="350" fill="#A9C0D3" font-family="Arial, sans-serif" font-size="24">Hybrid retrieval, graph-aware expansion, reranking, strict citations, eval gates, and operator-grade visibility.</text>
-  <rect x="88" y="396" width="310" height="54" rx="27" fill="#7AE7FF"/>
-  <text x="128" y="430" fill="#05111D" font-family="Arial, sans-serif" font-size="20" font-weight="700">Ask My Docs, but production-minded</text>
+<svg width="1600" height="640" viewBox="0 0 1600 640" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="160" y1="46" x2="1444" y2="492" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0A1930"/>
-      <stop offset="0.54" stop-color="#091423"/>
-      <stop offset="1" stop-color="#071F30"/>
+    <linearGradient id="bg" x1="94" y1="56" x2="1506" y2="584" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#091523"/>
+      <stop offset="0.52" stop-color="#08111C"/>
+      <stop offset="1" stop-color="#0B1D28"/>
     </linearGradient>
-    <linearGradient id="wave" x1="827" y1="200" x2="827" y2="520" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0C8DAF"/>
-      <stop offset="1" stop-color="#042133"/>
+    <linearGradient id="tealLine" x1="1018" y1="143" x2="1388" y2="427" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7DD3FC"/>
+      <stop offset="1" stop-color="#5EEAD4"/>
     </linearGradient>
-    <radialGradient id="orb" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1248 150) rotate(90) scale(160)">
-      <stop stop-color="#87EEFF"/>
-      <stop offset="1" stop-color="#87EEFF" stop-opacity="0"/>
+    <linearGradient id="chip" x1="112" y1="432" x2="392" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#123447"/>
+      <stop offset="1" stop-color="#0D2535"/>
+    </linearGradient>
+    <radialGradient id="orbA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1325 150) rotate(90) scale(184)">
+      <stop stop-color="#67E8F9" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#67E8F9" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="orbB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1180 436) rotate(90) scale(180)">
+      <stop stop-color="#14B8A6" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#14B8A6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#143041" stroke-opacity="0.65"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="26" flood-color="#020611" flood-opacity="0.48"/>
+    </filter>
   </defs>
-</svg>
 
+  <rect width="1600" height="640" rx="40" fill="#040A14"/>
+  <rect x="22" y="22" width="1556" height="596" rx="32" fill="url(#bg)" stroke="#143244" stroke-width="2"/>
+  <rect x="22" y="22" width="1556" height="596" rx="32" fill="url(#grid)" opacity="0.22"/>
+  <path d="M0 500C146 434 256 386 423 390C616 394 729 500 906 510C1110 523 1300 401 1600 300V640H0V500Z" fill="#0C2230"/>
+  <path d="M0 545C184 473 348 478 518 488C708 499 852 566 1038 563C1222 560 1397 474 1600 392V640H0V545Z" fill="#0A1825" opacity="0.88"/>
+  <circle cx="1325" cy="150" r="184" fill="url(#orbA)"/>
+  <circle cx="1180" cy="436" r="180" fill="url(#orbB)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="930" y="94" width="570" height="440" rx="30" fill="#091320" stroke="#16364A" stroke-width="2"/>
+    <rect x="958" y="122" width="514" height="82" rx="22" fill="#0D1E2C"/>
+    <rect x="958" y="226" width="246" height="130" rx="24" fill="#0D1B29"/>
+    <rect x="1226" y="226" width="246" height="130" rx="24" fill="#0D1B29"/>
+    <rect x="958" y="378" width="514" height="128" rx="24" fill="#0D1B29"/>
+
+    <text x="990" y="160" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Retrieval control plane</text>
+    <text x="990" y="186" fill="#84A8C1" font-family="Segoe UI, Arial, sans-serif" font-size="15">Hybrid search, graph expansion, citation validation, and operator telemetry.</text>
+
+    <circle cx="1034" cy="290" r="15" fill="#7DD3FC"/>
+    <circle cx="1133" cy="266" r="15" fill="#5EEAD4"/>
+    <circle cx="1158" cy="322" r="15" fill="#F59E0B"/>
+    <path d="M1049 290L1118 266L1143 322L1049 290Z" stroke="url(#tealLine)" stroke-width="3" stroke-linejoin="round"/>
+    <text x="986" y="344" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Graph-aware retrieval</text>
+    <text x="986" y="368" fill="#8AA6BD" font-family="Segoe UI, Arial, sans-serif" font-size="14">References, ownership, and policy edges reshape the top set.</text>
+
+    <text x="1254" y="264" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Grounding posture</text>
+    <rect x="1254" y="286" width="118" height="20" rx="10" fill="#133448"/>
+    <rect x="1378" y="286" width="64" height="20" rx="10" fill="#123726"/>
+    <rect x="1254" y="316" width="188" height="12" rx="6" fill="#173446"/>
+    <rect x="1254" y="336" width="154" height="12" rx="6" fill="#132938"/>
+    <text x="1266" y="301" fill="#CFE8FF" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700">citation coverage</text>
+    <text x="1394" y="301" fill="#DCFCE7" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700">100%</text>
+
+    <text x="986" y="414" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Operator shell</text>
+    <rect x="986" y="436" width="150" height="38" rx="19" fill="#123447"/>
+    <rect x="1148" y="436" width="108" height="38" rx="19" fill="#113228"/>
+    <rect x="1268" y="436" width="162" height="38" rx="19" fill="#2D2312"/>
+    <text x="1004" y="460" fill="#CFE8FF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Ask + trace</text>
+    <text x="1174" y="460" fill="#DCFCE7" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Health</text>
+    <text x="1290" y="460" fill="#FEF3C7" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Eval gates</text>
+    <rect x="986" y="486" width="444" height="8" rx="4" fill="#143244"/>
+    <rect x="986" y="486" width="302" height="8" rx="4" fill="#5EEAD4"/>
+  </g>
+
+  <g>
+    <rect x="94" y="84" width="182" height="40" rx="20" fill="#103244" stroke="#235069"/>
+    <text x="118" y="109" fill="#D9F5FF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="3">CITADEL</text>
+
+    <text x="94" y="210" fill="#F8FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="76" font-weight="700">Enterprise Retrieval</text>
+    <text x="94" y="292" fill="#F8FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="76" font-weight="700">Intelligence Platform</text>
+
+    <text x="94" y="360" fill="#9DB7CA" font-family="Segoe UI, Arial, sans-serif" font-size="26">
+      <tspan x="94" dy="0">Evidence-first document intelligence with hybrid retrieval, graph-aware expansion,</tspan>
+      <tspan x="94" dy="38">reranking, strict citations, eval gates, and operator-facing diagnostics.</tspan>
+    </text>
+
+    <rect x="94" y="434" width="214" height="58" rx="29" fill="url(#chip)" stroke="#21455A"/>
+    <rect x="324" y="434" width="222" height="58" rx="29" fill="url(#chip)" stroke="#21455A"/>
+    <rect x="562" y="434" width="198" height="58" rx="29" fill="url(#chip)" stroke="#21455A"/>
+    <text x="121" y="471" fill="#DBF4FF" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">Hybrid retrieval</text>
+    <text x="352" y="471" fill="#DBF4FF" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">Strict citations</text>
+    <text x="602" y="471" fill="#DBF4FF" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">Eval-gated</text>
+
+    <rect x="94" y="524" width="612" height="58" rx="29" fill="#7DD3FC"/>
+    <text x="126" y="560" fill="#07111D" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="700">Ask my docs, but with visible evidence, bounded orchestration, and real operator controls.</text>
+  </g>
+</svg>
