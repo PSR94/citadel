@@ -1,0 +1,39 @@
+name: ci
+
+on:
+  push:
+    branches: ["main", "master"]
+  pull_request:
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install API dependencies
+        working-directory: apps/api
+        run: python -m pip install --upgrade pip && python -m pip install -e ".[dev]"
+
+      - name: Run API tests
+        working-directory: apps/api
+        run: pytest
+
+      - name: Run retrieval eval gate
+        working-directory: apps/api
+        run: python -m app.scripts.run_eval --profile ci
+
+      - name: Install web dependencies
+        run: npm install
+
+      - name: Build web app
+        run: npm run build:web
+
