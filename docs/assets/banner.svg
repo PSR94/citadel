@@ -44,31 +44,17 @@
     <rect x="1226" y="226" width="246" height="130" rx="24" fill="#0D1B29"/>
     <rect x="958" y="378" width="514" height="128" rx="24" fill="#0D1B29"/>
 
-    <text x="990" y="160" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Retrieval control plane</text>
-    <text x="990" y="186" fill="#84A8C1" font-family="Segoe UI, Arial, sans-serif" font-size="15">Hybrid search, graph expansion, citation validation, and operator telemetry.</text>
-
     <circle cx="1034" cy="290" r="15" fill="#7DD3FC"/>
     <circle cx="1133" cy="266" r="15" fill="#5EEAD4"/>
     <circle cx="1158" cy="322" r="15" fill="#F59E0B"/>
     <path d="M1049 290L1118 266L1143 322L1049 290Z" stroke="url(#tealLine)" stroke-width="3" stroke-linejoin="round"/>
-    <text x="986" y="344" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Graph-aware retrieval</text>
-    <text x="986" y="368" fill="#8AA6BD" font-family="Segoe UI, Arial, sans-serif" font-size="14">References, ownership, and policy edges reshape the top set.</text>
-
-    <text x="1254" y="264" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Grounding posture</text>
     <rect x="1254" y="286" width="118" height="20" rx="10" fill="#133448"/>
     <rect x="1378" y="286" width="64" height="20" rx="10" fill="#123726"/>
     <rect x="1254" y="316" width="188" height="12" rx="6" fill="#173446"/>
     <rect x="1254" y="336" width="154" height="12" rx="6" fill="#132938"/>
-    <text x="1266" y="301" fill="#CFE8FF" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700">citation coverage</text>
-    <text x="1394" y="301" fill="#DCFCE7" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700">100%</text>
-
-    <text x="986" y="414" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Operator shell</text>
     <rect x="986" y="436" width="150" height="38" rx="19" fill="#123447"/>
     <rect x="1148" y="436" width="108" height="38" rx="19" fill="#113228"/>
     <rect x="1268" y="436" width="162" height="38" rx="19" fill="#2D2312"/>
-    <text x="1004" y="460" fill="#CFE8FF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Ask + trace</text>
-    <text x="1174" y="460" fill="#DCFCE7" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Health</text>
-    <text x="1290" y="460" fill="#FEF3C7" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Eval gates</text>
     <rect x="986" y="486" width="444" height="8" rx="4" fill="#143244"/>
     <rect x="986" y="486" width="302" height="8" rx="4" fill="#5EEAD4"/>
   </g>
@@ -80,11 +66,6 @@
     <text x="94" y="210" fill="#F8FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="76" font-weight="700">Enterprise Retrieval</text>
     <text x="94" y="292" fill="#F8FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="76" font-weight="700">Intelligence Platform</text>
 
-    <text x="94" y="360" fill="#9DB7CA" font-family="Segoe UI, Arial, sans-serif" font-size="26">
-      <tspan x="94" dy="0">Evidence-first document intelligence with hybrid retrieval, graph-aware expansion,</tspan>
-      <tspan x="94" dy="38">reranking, strict citations, eval gates, and operator-facing diagnostics.</tspan>
-    </text>
-
     <rect x="94" y="434" width="214" height="58" rx="29" fill="url(#chip)" stroke="#21455A"/>
     <rect x="324" y="434" width="222" height="58" rx="29" fill="url(#chip)" stroke="#21455A"/>
     <rect x="562" y="434" width="198" height="58" rx="29" fill="url(#chip)" stroke="#21455A"/>
@@ -92,7 +73,7 @@
     <text x="352" y="471" fill="#DBF4FF" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">Strict citations</text>
     <text x="602" y="471" fill="#DBF4FF" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">Eval-gated</text>
 
-    <rect x="94" y="524" width="612" height="58" rx="29" fill="#7DD3FC"/>
-    <text x="126" y="560" fill="#07111D" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="700">Ask my docs, but with visible evidence, bounded orchestration, and real operator controls.</text>
+    <rect x="94" y="524" width="278" height="58" rx="29" fill="#7DD3FC"/>
+    <text x="128" y="560" fill="#07111D" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Evidence-first</text>
   </g>
 </svg>

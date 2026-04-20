@@ -21,8 +21,6 @@
   <rect x="724" y="438" width="502" height="268" rx="28" fill="#0C1724"/>
 
   <text x="84" y="98" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">CITADEL</text>
-  <text x="84" y="126" fill="#88A6BE" font-family="Segoe UI, Arial, sans-serif" font-size="14">Operator console</text>
-
   <rect x="84" y="164" width="156" height="34" rx="17" fill="#123447"/>
   <text x="108" y="186" fill="#D7F4FF" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Ask workbench</text>
   <text x="84" y="242" fill="#A7C0D2" font-family="Segoe UI, Arial, sans-serif" font-size="15">Documents</text>
@@ -32,13 +30,12 @@
   <text x="84" y="386" fill="#A7C0D2" font-family="Segoe UI, Arial, sans-serif" font-size="15">Settings</text>
 
   <text x="356" y="98" fill="#F8FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Grounded query workbench</text>
-  <text x="356" y="122" fill="#90A9BD" font-family="Segoe UI, Arial, sans-serif" font-size="14">Hybrid retrieval, visible evidence, and operator-safe trace detail.</text>
 
   <text x="356" y="204" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Run a query</text>
   <rect x="356" y="230" width="312" height="126" rx="22" fill="#112133"/>
-  <text x="378" y="268" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">What is the incident escalation policy</text>
-  <text x="378" y="292" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">for severity 1 outages?</text>
-  <text x="378" y="326" fill="#89A8BF" font-family="Segoe UI, Arial, sans-serif" font-size="13">Top K 8 · graph hops 1 · rerank on</text>
+  <rect x="378" y="264" width="240" height="16" rx="8" fill="#DCE9F7"/>
+  <rect x="378" y="292" width="196" height="12" rx="6" fill="#8AA6BD"/>
+  <rect x="378" y="320" width="166" height="12" rx="6" fill="#8AA6BD"/>
   <rect x="356" y="376" width="166" height="42" rx="21" fill="#7DD3FC"/>
   <rect x="536" y="376" width="116" height="42" rx="21" fill="#123447"/>
   <text x="393" y="403" fill="#07111D" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Run query</text>
@@ -53,16 +50,14 @@
 
   <text x="758" y="202" fill="#F8FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Answer with citations</text>
   <rect x="758" y="226" width="434" height="66" rx="20" fill="#112133"/>
-  <text x="780" y="252" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Severity 1 incidents page the primary incident commander</text>
-  <text x="780" y="274" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">immediately and escalate to the on-call executive after 15 minutes.</text>
   <rect x="1084" y="240" width="82" height="24" rx="12" fill="#123447"/>
-  <text x="1100" y="256" fill="#D7F4FF" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700">runbook-021</text>
+  <rect x="780" y="246" width="266" height="12" rx="6" fill="#DCE9F7"/>
+  <rect x="780" y="268" width="232" height="12" rx="6" fill="#DCE9F7"/>
 
   <rect x="758" y="306" width="434" height="74" rx="20" fill="#0F1C2A"/>
-  <text x="780" y="334" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Evidence spans mention paging, executive escalation, and the</text>
-  <text x="780" y="356" fill="#E6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">incident command handoff without unsupported additions.</text>
   <rect x="1070" y="320" width="96" height="24" rx="12" fill="#123726"/>
-  <text x="1088" y="336" fill="#DCFCE7" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700">grounded</text>
+  <rect x="780" y="328" width="288" height="12" rx="6" fill="#DCE9F7"/>
+  <rect x="780" y="350" width="248" height="12" rx="6" fill="#DCE9F7"/>
 
   <text x="758" y="480" fill="#F8FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Trace diagnostics</text>
   <rect x="758" y="506" width="434" height="48" rx="18" fill="#112133"/>
@@ -71,7 +66,7 @@
   <circle cx="786" cy="530" r="8" fill="#7DD3FC"/>
   <circle cx="786" cy="594" r="8" fill="#5EEAD4"/>
   <circle cx="786" cy="658" r="8" fill="#F59E0B"/>
-  <text x="808" y="535" fill="#DCE9F7" font-family="Segoe UI, Arial, sans-serif" font-size="14">BM25 + dense fusion returned 8 candidates</text>
-  <text x="808" y="599" fill="#DCE9F7" font-family="Segoe UI, Arial, sans-serif" font-size="14">Graph expansion added ownership and policy-linked evidence</text>
-  <text x="808" y="663" fill="#DCE9F7" font-family="Segoe UI, Arial, sans-serif" font-size="14">Citation validator suppressed unsupported segments</text>
+  <rect x="808" y="524" width="252" height="12" rx="6" fill="#DCE9F7"/>
+  <rect x="808" y="588" width="286" height="12" rx="6" fill="#DCE9F7"/>
+  <rect x="808" y="652" width="238" height="12" rx="6" fill="#DCE9F7"/>
 </svg>
